@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+ 
+  <link rel="stylesheet" href="anime.css">
+ 
+</head>
+
+
+<body>
+
+  <div class="website">
+
+    <div class="navbar">
+      <div class="innav" style=" font-size: 1vw;">
+        <a href="homepage.html">Home</a>
+        <div class="white"> <a href="">Movies</a></div>
+        <div class="white"><a href="">TV Series</a></div>
+        <div class="white"><a href="">Most Popular</a></div>
+        <div class="white"><a href="topairing.html">Top Airing</a></div>
+      </div>
+    </div>
+
+    <div class="header2">
+      <div class="insideheader2">
+        <div class="part1">
+          <div class="hianimelogo">
+            <a href="homepage.html"><img
+                src="https://res.cloudinary.com/dumiplyvs/image/upload/v1758638710/logo_ygc9hb.png" height="40vh"
+                alt=""></a>
+          </div>
+
+          <div class="searchbar">
+            <input type="text" placeholder="Search anime...">
+            <div class="searchicon">
+              <img
+                src=" https://static.vecteezy.com/system/resources/thumbnails/009/652/218/small/magnifying-glass-icon-isolated-on-white-background-search-illustration-vector.jpg"
+                height="20vh" alt="">
+            </div>
+          </div>
+
+          <div class="part1text">
+            <p class="Top">Top search:Solo Leveling Season 2: Arise from the Shadow</p>
+            <p class="Sakamoto">Sakamoto Days.Solo LevelingOne PieceThe Apothecary</p>
+            <p class="Diaries">Diaries Season 2Shangri-La FrontierBlue LockFrieren: Beyond</p>
+            <p class="Journey">Journey's EndI'm Getting Married to a Girl I Hate in My...</p>
+
+          </div>
+
+          <div class="watchanime">
+            <div class="watchanimeinside">
+              <a href="homepage.html" class="anchor">
+                <div class="none">Watch anime</div>
+                <div class="arrow"><img
+                    src="data:image/png;base64,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"
+                    alt="" height="22vh"></div>
+
+              </a>
+            </div>
+
+          </div>
+
+
+        </div>
+
+        <div class="part2">
+          <div class="op"></div>
+          <div class="opacity"></div>
+          <div class="opacity1"></div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="thirdnav">
+
+      <div class="luffy"><img src="https://res.cloudinary.com/dumiplyvs/image/upload/v1758638711/share-icon_qo1v2m.gif"
+          alt="" height="60vh" width="60vw"></div>
+      <div class="share">
+        <p style="color: palevioletred;">Share HIANIME</p>
+        <p style="font-size: medium;">to your friends</p>
+      </div>
+
+      <div class="k" id="k">
+        <p style="font-size:x-large;" >520k</p>
+        <p style="margin-left: 0.3rem; font-size: medium;" >shares</p>
+      </div>
+
+      <div class="tele">
+        <div class=""><img
+            src="https://static.vecteezy.com/system/resources/previews/042/387/610/non_2x/white-paper-plane-on-blue-background-telegram-icon-free-png.png"
+            height="32vh"></div>
+        <div class="s">
+          <p>Share</p>
+        </div>
+      </div>
+      <div class="x">
+        <div class=""><img
+            src="data:image/png;base64,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"
+            alt="" height="16vh"></div>
+            <div class="s">
+               <div >Share</div>
+            </div>
+       
+      </div>
+
+      <div class="fac">
+        <div class=""><img src="https://cdn-icons-png.flaticon.com/512/59/59439.png" alt="" height="16vh"></div>
+        <div class="s">
+        <div style="margin-left: -2rem;">Share</div>
+        </div>
+      </div>
+
+      <div class="discord">
+        <div class=""><img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4MAdVX9AVq-Fsj0dB9MLUppYqpsrDfODngQ&s" alt=""
+            height="20vh"></div>
+            <div class="s">
+        <div class="">Share</div>
+        </div>
+      </div>
+
+      <div class="share1">
+        <img src="https://pngimg.com/d/share_PNG36.png" alt="" height="15vh" width="17vw">
+      </div>
+
+
+    </div>
+
+    <div class="footer1">
+
+      <div class="footer1part1">
+
+        <div class="built">
+          <h1 style="font-size: 2.3vw; color: rgb(236, 220, 220);" class="hi">HiAnime - Built by Anime Fans, For Anime Fans</h1>
+          <br>
+          <h3 style="font-size: 1.1vw;">Anime is more than entertainment - it’s a culture, a passion, and for many, a
+            lifestyle.That’s why we</p>
+            <h3 style="font-size: 1.1vw;">created HiAnime, a free anime streaming site made specifically for fans across
+              the globe. Whether</p>
+              <h3 style="font-size: 1.1vw;">you’re a casual viewer or a dedicated otaku, HiAnime is designed to give you
+                the smoothest, safest,</h3>
+              <h3 style="font-size: 1.1vw;">and most enjoyable anime experience possible.</h3>
+
+        </div>
+
+        <div class="webuilt">
+          <h1>Why We Built HiAnime</h1>
+          <br>
+          <h3 style="font-size: 1.1vw;">Before HiAnime, we noticed a huge problem: most free anime websites were
+            overloaded with</p>
+            <h3 style="font-size: 1.1vw;">intrusive ads, dangerous popups, slow servers, and low-quality videos. Fans
+              had to compromise</p>
+              <h3 style="font-size: 1.1vw;">between safety and accessibility. We wanted to change that.</h3>
+              <br>
+              <h3 style="font-size: 1.1vw;">and most enjoyable anime experience possible.</h3>
+        </div>
+
+        <div class="box3">
+          <h2>What You’ll Find at HiAnime</h2><br>
+          <h3 style="font-size: 1.3vw; color: rgb(200, 212, 223);">Massive Collection for All Tastes</h3><br>
+          <h3>Shonen, shojo, seinen, isekai, romance, action, horror, mystery, comedy, school life, fantasy, and</h3>
+          <h3>more — HiAnime has it all. Our library includes legendary classics, ongoing hits, and even underrated</h3>
+          <h3>gems that you may not find elsewhere</h3>
+        </div>
+
+        <div class="box4">
+          <h2>HD Streaming Made Simple</h2><br>
+          <h3>Internet speeds differ, and that shouldn’t stop your anime journey. That’s why HiAnime offers flexible
+          </h3>
+          <h3>resolutions from 360p to 1080p HD. Watch seamlessly whether you’re on mobile data or a fiber</h3>
+          <h3>connection.</h3>
+        </div>
+
+        <div class="box5">
+          <h2>Download Your Favorites</h2>
+          <h3>Not online all the time? No problem. HiAnime lets you download episodes or even full series to enjoy</h3>
+          <h3>later offline.</h3>
+        </div>
+
+        <div class="box6">
+          <h2>Safe, Secure, and Ad-Lite</h2><br>
+          <h3>We know fans are tired of spam-filled sites. HiAnime is different:</h3><br>
+          <ul>
+            <li>Only one safe ad to keep servers running.</li>
+            <li>Ads are monitored 24/7 for security.</li>
+            <li>Users can report suspicious ads and we act instantly.</li>
+            <li>Your trust is more valuable than any ad revenue.</li>
+          </ul>
+        </div>
+
+        <div class="box7">
+          <h2>Why Fans Choose HiAnime</h1><br>
+            <ul>
+              <li>Daily Updates: Fresh episodes uploaded constantly.</li>
+              <li>Faster Streaming: Optimized servers for smooth playback.</li>
+              <li>Fan Requests: We listen to your suggestions and add shows you want.</li>
+              <li>Simple UI: Navigate easily, even if you’re new to anime sites.</li>
+              <li>Worldwide Community: Anime fans from every country use HiAnime daily.</li>
+            </ul>
+        </div>
+        <div class="box8">
+          <h2>Final Words</h2><br>
+          <h3>HiAnime is more than just a website — it’s a hub where anime fans unite. Safe streaming, unlimited</h3>
+          <h3>choices, and daily updates make it one of the most trusted names for free anime worldwide.</h3><br>
+          <h3>So if you’re ready to dive into endless anime adventures, bookmark HiAnime and join a growing </h3>
+          <h3>global family of anime fans today.</h3>
+        </div>
+        <div class="box9">
+          <p style="font-size: 1.1vw;">© HiAnime. All rights reserved.</p>
+        </div>
+
+      </div>
+
+
+      <div class="footer1part2">
+        <p style="font-size:  2vw; margin-left: 8.8vw; margin-top: 3vw;margin-bottom: 1vw; color: rgb(214, 207, 199);">
+          Trending Posts</p>
+
+        <div class="part2-1">
+          <div class="footerpart2-1">
+            <p class="green"">#Suggestion</p>
+               <p class=" hours"> 7 hours ago</p>
+            <div class="msg">
+
+              <p style="text-align: start; margin-top: -0.2vw;">💬 155</p>
+            </div>
+
+          </div>
+
+
+          <div class="footerpart2-2">
+            <h3>Do you guys have any tips on how to wake</p>
+            <p class="">up early? like at 9-10 Am ?</p>
+            <p class="title">As the title says</p>
+          </div>
+
+          <div class="footerpart2-3">
+            <img src="https://cdn.noitatnemucod.net/avatar/100x100/spy_family/01.png" alt="">
+            <p class="sgn">SGNK-43_xD</p>
+          </div>
+        </div>
+
+        <div class="box2-1">
+          <div class="footerpart2-1">
+            <p class="green"">#Recommendation</p>
+               <p class=" hours"> 2 days ago</p>
+            <div class="msg">
+
+              <p style="text-align: start; margin-top: -0.2vw;">💬 80</p>
+            </div>
+
+          </div>
+
+
+          <div class=" box2-in">
+            <p class="">YOU NEED TO WATCH THEM BEFORE YOU</p>
+            <p class="">DIE!!! Here are some Greatest Anime of All</p>
+            <p>Time which I would Like to Suggest (after my</p>
+            <p>5 years of anime journey)!!</p>
+            <p class="title">Categories: Romance: Clannad Action: Attack On Titan</p>
+            <p class="title">Adventure: One Piece Sports: Haikyu!! Isekai: Mushoku</p>
+            <p class="title">Tensei Jobless Reincarnation Comedy:...</p>
+
+          </div>
+
+          <div class="inbox1">
+            <img src="https://cdn.noitatnemucod.net/avatar/100x100/spy_family/01.png" alt="">
+            <p class="sgn">AnimeLover_99</p>
+          </div>
+
+        </div>
+
+       
+
+        <div class="part2-1" >
+           <div class="footerpart2-1" >
+            <p class="green"">#Recommendation</p>
+               <p class=" hours"> 2 days ago</p>
+            <div class="msg">
+
+              <p style="text-align: start; margin-top: -0.2vw;">💬 80</p>
+            </div>
+
+          </div>
+
+          <div class="text">
+            <h3>Top Anime to Start Your Journey!</h2>
+              <p class="title">Categories: Romance: Clannad Action: Attack On Titan</p>
+              <p class="title">Adventure: One Piece Sports: Haikyu!! Isekai: Mushoku</p>
+              <p class="title">Tensei Jobless Reincarnation Comedy:...</p>
+          </div>
+
+          <div class="inbox3">
+            <img src="https://cdn.noitatnemucod.net/avatar/100x100/spy_family/01.png" alt="">
+            <p class="sgn">AnimeLover_99</p>
+          </div>
+        </div>
+
+
+        <div class="part2-1">
+
+               <div class="footerpart2-1">
+            <p class="green"">#Recommendation</p>
+               <p class=" hours"> 2 days ago</p>
+            <div class="msg">
+
+              <p style="text-align: start; margin-top: -0.2vw;">💬 80</p>
+            </div>
+
+          </div>
+
+          <div class="text">
+            <h3>Top Anime to Start Your Journey!</h2>
+              <p class="title">Categories: Romance: Clannad Action: Attack On Titan</p>
+              <p class="title">Adventure: One Piece Sports: Haikyu!! Isekai: Mushoku</p>
+              <p class="title">Tensei Jobless Reincarnation Comedy:...</p>
+          </div>
+
+          <div class="inbox3">
+            <img src="https://cdn.noitatnemucod.net/avatar/100x100/spy_family/01.png" alt="">
+            <p class="sgn">AnimeLover_99</p>
+          </div>
+
+        </div>
+
+           <div class="part2-1">
+
+               <div class="footerpart2-1">
+            <p class="green"">#Recommendation</p>
+               <p class=" hours"> 2 days ago</p>
+            <div class="msg">
+
+              <p style="text-align: start; margin-top: -0.2vw;">💬 80</p>
+            </div>
+
+          </div>
+
+          <div class="text">
+            <h3>Top Anime to Start Your Journey!</h2>
+              <p class="title">Categories: Romance: Clannad Action: Attack On Titan</p>
+              <p class="title">Adventure: One Piece Sports: Haikyu!! Isekai: Mushoku</p>
+              <p class="title">Tensei Jobless Reincarnation Comedy:...</p>
+          </div>
+
+          <div class="inbox3">
+            <img src="https://cdn.noitatnemucod.net/avatar/100x100/spy_family/01.png" alt="">
+            <p class="sgn">AnimeLover_99</p>
+          </div>
+
+        </div>
+
+
+
+
+        <div class="lastbox">
+          <p>Read more...</p>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
